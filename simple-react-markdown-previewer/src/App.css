@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  font: "Arial";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.test-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  border-radius: 8px;
+}
+.developer{
+  width: 50%;
+  margin: 2rem;
+  border-color:white;
+  border-width: 1px;
+  border-style:solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+
+
+.header{
+  background-color:aquamarine;
+  margin: 0 auto;
+  padding: 0.25rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  vertical-align: middle;
+}
+
+#editor .header{
+  background-color:#282c34 !important;
+}
+
+#editor{
+  margin:0;
+  background-color:#282c34;
+  color:white;
+  width: calc(100% - 1rem);
+  max-width: calc(100% - 1rem);
+  height: calc(100% - 4rem);
+  padding:0.5rem;
+  margin:0;
+  resize: vertical;
+  border-width: 0px;
+  font-family: 'arial';
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border-radius: 0 0 8px 8px;
+}
+
+#results{
+  color:black;
+  margin: 2rem;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1rem;
+  text-align: left;
+  border-radius: 8px;
+}
+
+#preview{
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  margin: 0.25rem 0.25rem 0.25rem 0.5rem;
+  border-radius: 0 0 8px 8px;
+}
+
+#preview h1{
+  font-size: 2rem;
+}
+
+#preview h2{
+  font-size: 1.5rem;
+}
+#preview h3{
+  font-size:1.25rem
+}
+
+#preview img{
+  width: 25%;
+}
+
+
+#preview > p > code{
+  display: inline-block;
+}
+#preview code{
+  background-color: #282c34;
+  margin: 1rem;
+  color:white;
+  display: flex;
+}
+
+#preview table {
+  display: table;
+  border-collapse: collapse;
+}
+
+#preview th, #preview td{
+  border: 2px solid black;
+}
+
+#preview blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+#preview blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#preview blockquote p {
+  display: inline;
+}
+
